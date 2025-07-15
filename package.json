@@ -1,0 +1,12 @@
+{
+  "name": "api-booker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run postmanBooker -e booker-env.postman"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
