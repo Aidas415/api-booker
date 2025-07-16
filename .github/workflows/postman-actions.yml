@@ -28,3 +28,4 @@ jobs:
  
     - name: Runt newman tests
       run: npm run test
+
