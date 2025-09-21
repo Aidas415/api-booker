@@ -44,7 +44,7 @@ You can enhance this setup by:
   
 ## 🧩 Project Structure
 
-### 📌 Icon meanings
+> 📌 Icon meanings
 
 - 📁 –  folder
 - 📄 – file
