@@ -21,8 +21,15 @@ This project automates REST API testing using a [Postman](https://www.postman.co
 - Run the tests:
 npm run test
 
-
 This command runs the postmanBooker collection using the booker-env.postman environment.
+
+## ⚠️ Test Disclaimer
+
+```
+The project uses a public mock API designed for educational purposes. The API contains intentional bugs and inconsistencies — such as accepting invalid input, returning unexpected status codes, or allowing illogical data (e.g., checkout dates before check-in).
+Some tests are expected to fail as part of the learning process. These failures are not due to incorrect test scripts, but rather reflect the API’s behavior and are left intentionally to highlight potential issues.
+```
+
 
 ⚙️ CI/CD with GitHub Actions
 
