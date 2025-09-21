@@ -17,7 +17,7 @@ This project automates REST API testing using a [Postman](https://www.postman.co
    ```bash
    npm install -g newman
 
-▶️
+## ▶️
 - Run the tests:
 npm run test
 
@@ -43,6 +43,11 @@ You can enhance this setup by:
 - Integrating with services like Allure or ReportPortal
   
 ## 🧩 Project Structure
+
+### 📌 Icon meanings
+
+- 📁 –  folder
+- 📄 – file
 
 ```
 ├── 📄 postmanBooker (Postman collection)
