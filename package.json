@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "newman run postmanBooker -e booker-env.postman.json"
+    "test": "newman run postmanBooker -e booker-env.postman.json --reporters cli"
   },
   "keywords": [],
   "author": "",
