@@ -4,44 +4,13 @@
 
 This project automates REST API testing using a [Postman](https://www.postman.com/) collection and [Newman](https://www.npmjs.com/package/newman), integrated into a CI/CD pipeline via GitHub Actions.
 
-## 🌐 Target API
+## 📖 Project Overview
 
-- **System**: [Restful Booker](https://restful-booker.herokuapp.com)
-- **Environment**: `booker-env.postman.json`
-- **Collection**: `postmanBooker` (Postman collection file)
+- **Testing Tool:** [Postman](https://www.postman.com/) + [Newman](https://www.npmjs.com/package/newman)  
+- **CI/CD Pipeline:** [GitHub Actions](https://docs.github.com/en/actions)  
+- **Target API:** [Restful Booker](https://restful-booker.herokuapp.com) – a public API for practicing RESTful testing  
+- **Purpose:** Educational project for learning automated API testing and CI/CD integration
 
-## 🧬 Run Locally
-
-1. Install [Node.js](https://nodejs.org/) (version 18 recommended)
-2. Install Newman globally:
-   ```bash
-   npm install -g newman
-
-## ▶️
-- Run the tests:
-npm run test
-
-This command runs the postmanBooker collection using the booker-env.postman environment.
-
-## ⚠️ Test Disclaimer
-
-The project uses a public mock API designed for educational purposes. The API contains intentional bugs and inconsistencies — such as accepting invalid input, returning unexpected status codes, or allowing illogical data (e.g., checkout dates before check-in).
-Some tests are expected to fail as part of the learning process. These failures are not due to incorrect test scripts, but rather reflect the API’s behavior and are left intentionally to highlight potential issues.
-
-
-## ️ CI/CD with GitHub Actions
-
-Tests are automatically triggered:
-- On push to the main branch
-- On pull_request to the main branch
-Workflow file: .github/workflows/postman-actions.yml
-
-## 📊 Test Reporting
-
-You can enhance this setup by:
-- Adding HTML or JSON reports via Newman reporters
-- Integrating with services like Allure or ReportPortal
-  
 ## 🧩 Project Structure
 
 > 📌 Icon meanings
@@ -59,13 +28,33 @@ You can enhance this setup by:
 └── 📄 README.md
 ```
 
-## 📜 License
+## 🏁 Getting Started
 
-This project is licensed under the ISC License.
+1. Install Node.js  
+2. Install Newman  
+3. Run tests with:
+```bash
+npm run test
+```
+This command runs the postmanBooker collection using the booker-env.postman environment.
 
-## 👤 Author
+## 🔐 Environment Setup
+- Uses `booker-env.postman.json` for environment variables
+- No secrets required for public API
 
-Created by Aidas.  
-Feel free to fork, contribute, or reach out — learning is better when shared!
+## ⚠️ Test Disclaimer
+This API is intentionally buggy. Some test failures are expected and reflect real-world edge cases.
 
+## ▶️ CI/CD with GitHub Actions
+Tests run automatically on:
+- Push to `main`
+- Pull requests to `main`
+Workflow file: [`postman-actions.yml`](https://github.com/Aidas415/api-booker/blob/main/.github/workflows/postman-actions.yml)
 
+📜 License
+ISC License
+
+👤 Author
+Created by Aidas
+📧 aidasambotas@gmail.com
+🌐 github.com/Aidas415
