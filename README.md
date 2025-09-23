@@ -53,7 +53,7 @@ Workflow file: [`postman-actions.yml`](https://github.com/Aidas415/api-booker/bl
 
 ## 📜 License
 
-ISC License
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
 ## 👤 Author
 
