@@ -11,6 +11,8 @@ This project automates REST API testing using a `Postman` collection and `Newman
 - **Target API:** [Restful Booker](https://restful-booker.herokuapp.com) – a public API for practicing RESTful testing  
 - **Purpose:** Educational project for learning automated API testing and CI/CD integration
 
+---
+
 ## 🧩 Project Structure
 
 > 📌 Icon meanings
