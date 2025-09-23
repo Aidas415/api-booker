@@ -4,14 +4,14 @@
 
 This project automates REST API testing using a `Postman` collection and `Newman`, integrated into a CI/CD pipeline via GitHub Actions.
 
+---
+
 ## 📖 Project Overview
 
 - **Testing Tool:** [Postman](https://www.postman.com/) + [Newman](https://www.npmjs.com/package/newman)  
 - **CI/CD Pipeline:** [GitHub Actions](https://docs.github.com/en/actions)  
 - **Target API:** [Restful Booker](https://restful-booker.herokuapp.com) – a public API for practicing RESTful testing  
 - **Purpose:** Educational project for learning automated API testing and CI/CD integration
-
----
 
 ## 🧩 Project Structure
 
