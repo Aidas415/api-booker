@@ -2,7 +2,7 @@
 
 ![CI Status](https://github.com/Aidas415/api-booker/actions/workflows/postman-actions.yml/badge.svg)
 
-This project automates REST API testing using a [Postman](https://www.postman.com/) collection and [Newman](https://www.npmjs.com/package/newman), integrated into a CI/CD pipeline via GitHub Actions.
+This project automates REST API testing using a `Postman` collection and `Newman`, integrated into a CI/CD pipeline via GitHub Actions.
 
 ## 📖 Project Overview
 
@@ -51,10 +51,12 @@ Tests run automatically on:
 - Pull requests to `main`
 Workflow file: [`postman-actions.yml`](https://github.com/Aidas415/api-booker/blob/main/.github/workflows/postman-actions.yml)
 
-📜 License
+## 📜 License
+
 ISC License
 
-👤 Author
-Created by Aidas
-📧 aidasambotas@gmail.com
-🌐 github.com/Aidas415
+## 👤 Author
+
+Created by **Aidas Ambotas**  
+📧 Email: aidasambotas@gmail.com  
+🌐 GitHub: [github.com/Aidas415](https://github.com/Aidas415)
