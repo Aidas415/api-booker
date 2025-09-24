@@ -21,12 +21,12 @@ This project automates REST API testing using a `Postman` collection and `Newman
 - 📄 – file
 
 ```
-├── 📄 postmanBooker (Postman collection)
-├── 📄 booker-env.postman.json
-├── 📄 package.json
 ├── 📁 .github
 │   └── 📁 workflows
-│       └── 📄 postman-ci.yml
+│       └── 📄 postman-actions.yml
+├── 📄 booker-env.postman.json
+├── 📄 package.json
+├── 📄 postmanBooker (Postman collection)
 └── 📄 README.md
 ```
 
